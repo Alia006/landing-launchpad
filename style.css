@@ -39,10 +39,9 @@
     color:#4E47FF;
     box-shadow: 0 0 5px blue;
 }
-
 /* header style */
 .header{
-   background-image:url("Assets/Hero-bg.png");
+   background-image:url("Assets/images/Hero-bg.png");
     padding:0 120px;
     height: 100vh;
 }
@@ -64,3 +63,35 @@ nav .logo{
     font-weight: 700;
     padding-bottom:20px;
 }
+/* main section style */
+main{
+    max-width: 980px;
+    margin:0 auto;
+} 
+/* section style */
+section{
+    margin: 50px 0;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.section-description{
+    padding:20px 0;
+    font-weight: 400;
+    font-size: 24px;
+}
+/* action section style */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:150px;
+    
+}
+
+.webflow-img{
+    width: 450px;
+    height: 300px;
+    border-radius: 45px;
+} 
